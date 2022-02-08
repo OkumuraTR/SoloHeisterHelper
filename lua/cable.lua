@@ -4,9 +4,12 @@ SoloHeisterHelper.options_path = SavePath .. "SoloHeisterHelper.txt"
 SoloHeisterHelper.options = {}
 SoloHeisterHelper._menu_path = ModPath .. 'menu.txt'
 
-local cable_amount = SoloHeisterHelper.options.cable_amount
-local tweaker = UpgradesTweakData.init
-function UpgradesTweakData:init(tweak_data)
-	tweaker(self, tweak_data)
-	self.values.cable_tie.quantity_1 = {cable_amount}
+local cableAmount = SoloHeisterHelper.options.cable_amount
+if RequiredScript == "lib/tweak_data/upgradestweakdata" then
+		local old_init_pd2_values = UpgradesTweakData._init_pd2_values
+		function UpgradesTweakData:_init_pd2_values(...)
+			old_init_pd2_values(self, ...)
+            self.values.cable_tie.quantity_1 = {cableAmount}
+            self.values.cable_tie.quantity_2 = {cableAmount}
+		end
 end
