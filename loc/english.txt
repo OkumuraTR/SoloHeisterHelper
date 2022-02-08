@@ -1,0 +1,10 @@
+{
+    "intimidating_heisters_title": "Intimidating Heisters",
+    "intimidating_heisters_desc": "",
+    "intimidating_heisters_intimidations_title": "Base Enemy Intimidations",
+    "intimidating_heisters_intimidations_desc": "Increase or Decrease the base amount of enemy intimidations. The total is (Number you've set) + 1 per heister",
+	"4_Players_Intim": "4 Players",
+	"3_Players_Intim": "3 Players",
+	"2_Players_Intim": "2 Players",
+	"1_Players_Intim": "1 Player"
+}

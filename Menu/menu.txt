@@ -1,0 +1,23 @@
+{
+    "menu_id": "intimHeisters_options",
+    "parent_menu_id": "blt_options",
+    "title": "intimidating_heisters_title",
+    "description": "intimidating_heisters_desc",
+    "items": [
+		{
+			"type" : "multiple_choice",
+			"id" : "intim_amount_mc",
+			"title" : "intimidating_heisters_intimidations_title",
+			"description" : "intimidating_heisters_intimidations_desc",
+			"callback" : "callback_intim_amount",
+			"items" : [
+				"4_Players_Intim",
+				"3_Players_Intim",
+				"2_Players_Intim",
+				"1_Players_Intim"
+			],
+			"value" : "intim_amount",
+			"default_value" : 0,
+		}
+    ]
+}
