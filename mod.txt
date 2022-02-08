@@ -1,7 +1,7 @@
 {
 	"name": "Solo Hesiter Helper",
 	"description": "Balances portions of the game around less than 4 players",
-	"author": "Gavin",
+	"author": "Okumura",
 	"contact": "name",
 	"blt_version": 2,
 	"version": "7",
